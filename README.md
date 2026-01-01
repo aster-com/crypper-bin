@@ -8,13 +8,13 @@ A cross-platform application supporting Windows, macOS, and Linux.
 
 ## Download
 
-Download binaries for your platform from the folders below.
+Download binaries for your platform from the [Releases](https://github.com/aster-com/crypper-bin/releases/latest) page.
 
-| Platform | Architecture | Folder |
-|----------|--------------|--------|
-| Windows | x64 (amd64) | [windows/](./windows/) |
-| macOS | Apple Silicon (arm64) | [macos/](./macos/) |
-| Linux | x64 (amd64) | [linux/](./linux/) |
+| Platform | Architecture | File |
+|----------|--------------|------|
+| Windows | x64 (amd64) | `crypper-windows.zip` |
+| macOS | Apple Silicon (arm64) | `crypper-macos.zip` |
+| Linux | x64 (amd64) | `crypper-linux.tar.xz` |
 
 ## License
 
