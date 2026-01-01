@@ -1,30 +1,33 @@
 # Crypper
 
-暗号化/復号ユーティリティアプリケーション
+Encryption/Decryption utility application.
 
-Windows、macOS、Linux に対応したクロスプラットフォームアプリケーションです。
+A cross-platform application supporting Windows, macOS, and Linux.
 
-## ダウンロード
+## Download
 
-各プラットフォーム向けのバイナリは以下のフォルダからダウンロードできます。
+Download binaries for your platform from the folders below.
 
-| プラットフォーム | フォルダ |
-|-----------------|---------|
-| Windows | [windows/](./windows/) |
-| macOS | [macos/](./macos/) |
-| Linux | [linux/](./linux/) |
+| Platform | Architecture | Folder |
+|----------|--------------|--------|
+| Windows | x64 (amd64) | [windows/amd64/](./windows/amd64/) |
+| Windows | ARM64 | [windows/arm64/](./windows/arm64/) |
+| macOS | Apple Silicon (arm64) | [macos/arm64/](./macos/arm64/) |
+| macOS | Intel (amd64) | [macos/amd64/](./macos/amd64/) |
+| Linux | x64 (amd64) | [linux/amd64/](./linux/amd64/) |
+| Linux | ARM64 | [linux/arm64/](./linux/arm64/) |
 
-## ライセンス
+## License
 
 Copyright (c) 2025 Aster Inc. All Rights Reserved.
 
-## サードパーティライセンス
+## Third-Party Licenses
 
-本ソフトウェアは以下のオープンソースライブラリを使用しています。
-各ライブラリのライセンス全文は [licenses/](./licenses/) フォルダをご確認ください。
+This software uses the following open source libraries.
+See the [licenses/](./licenses/) folder for full license texts.
 
-| ライブラリ | ライセンス |
-|-----------|-----------|
+| Library | License |
+|---------|---------|
 | [Fyne](https://fyne.io/) | BSD-3-Clause |
 | [go-i18n](https://github.com/nicksnyder/go-i18n) | MIT |
 | [toml](https://github.com/BurntSushi/toml) | MIT |
@@ -35,4 +38,4 @@ Copyright (c) 2025 Aster Inc. All Rights Reserved.
 | golang.org/x/sys | BSD-3-Clause |
 | golang.org/x/text | BSD-3-Clause |
 
-その他の依存ライブラリについては [licenses/](./licenses/) フォルダをご参照ください。
+For other dependencies, please refer to the [licenses/](./licenses/) folder.
