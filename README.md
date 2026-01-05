@@ -1,4 +1,4 @@
-<img src="appicon.png" alt="Crypper logo" title="Crypper" align="left" height="60px" />
+<img src="images/appicon.png" alt="Crypper logo" title="Crypper" align="left" height="60px" />
 
 # Crypper
 
@@ -10,11 +10,47 @@ A cross-platform application supporting Windows, macOS, and Linux.
 
 ## Features
 
-- **File Encryption**: AES-256-GCM encryption with Argon2id key derivation
+- **File Encryption**: AES-256-GCM encryption/decryption with Argon2id key derivation
 - **Cross-Platform**: Supports Windows, macOS, and Linux
 - **Drag & Drop**: Easy file selection via drag and drop
 - **App Info**: View application information and check for updates
 - **Internationalization**: Supports English and Japanese
+
+## Why AES-256-GCM with Argon2id?
+
+### AES-256-GCM vs AES-256-CBC
+
+| | AES-256-GCM | AES-256-CBC |
+|---|---|---|
+| **Authentication** | Built-in (AEAD) | Requires separate MAC |
+| **Integrity Check** | Automatic | Manual implementation needed |
+| **Padding Oracle Attack** | Not vulnerable | Vulnerable |
+| **Performance** | Parallelizable | Sequential only |
+| **Modern Standard** | Recommended by NIST | Legacy mode |
+
+**AES-256-GCM** (Galois/Counter Mode) is an authenticated encryption mode that provides both confidentiality and integrity in a single operation. It detects any tampering with encrypted data, preventing attacks where adversaries modify ciphertext.
+
+**AES-256-CBC** (Cipher Block Chaining) only provides confidentiality and is vulnerable to padding oracle attacks if not carefully implemented with a separate MAC (Message Authentication Code).
+
+### Why Argon2id for Key Derivation?
+
+Argon2id is the winner of the Password Hashing Competition (2015) and is recommended by OWASP for password hashing. It combines:
+
+- **Memory-hardness**: Resistant to GPU/ASIC brute-force attacks
+- **Time-hardness**: Configurable iteration count
+- **Hybrid approach**: Combines Argon2i (side-channel resistant) and Argon2d (GPU-resistant)
+
+Compared to older algorithms like PBKDF2 or bcrypt, Argon2id provides stronger protection against modern hardware-accelerated attacks.
+
+## Screenshots
+
+| Encryption | Decryption |
+|:----------:|:----------:|
+| ![Encryption](images/ss-01-encryption.png) | ![Decryption](images/ss-02-decryption.png) |
+
+| Settings | App Info |
+|:--------:|:--------:|
+| ![Settings](images/ss-03-settings.png) | ![App Info](images/ss-04-appinfo.png) |
 
 ## Download
 
