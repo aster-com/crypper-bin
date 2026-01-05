@@ -46,11 +46,11 @@ Compared to older algorithms like PBKDF2 or bcrypt, Argon2id provides stronger p
 
 | Encryption | Decryption |
 |:----------:|:----------:|
-| ![Encryption](images/ss-01-encryption.png) | ![Decryption](images/ss-02-decryption.png) |
+| <img src="images/ss-01-encryption.png" alt="Encryption" width="350"> | <img src="images/ss-02-decryption.png" alt="Decryption" width="350"> |
 
 | Settings | App Info |
 |:--------:|:--------:|
-| ![Settings](images/ss-03-settings.png) | ![App Info](images/ss-04-appinfo.png) |
+| <img src="images/ss-03-settings.png" alt="Settings" width="350"> | <img src="images/ss-04-appinfo.png" alt="App Info" width="350"> |
 
 ## Download
 
