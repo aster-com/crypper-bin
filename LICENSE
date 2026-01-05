@@ -1,7 +1,107 @@
-Crypper - License
+# Crypper Proprietary License / Crypper 独自ライセンス
 
-Copyright (c) 2025 Aster Inc. All Rights Reserved.
+Copyright (c) 2026 Aster Inc. All Rights Reserved.
 
-Third-Party Software Notice:
-This software includes third-party libraries that are licensed under the MIT, Apache-2.0, and BSD-3-Clause licenses.
-Please refer to the "licenses" folder for the original license texts and details on each included library. 
+---
+
+## English Version
+
+### 1. Grant of License
+
+This software ("Crypper") is licensed, not sold. Aster Inc. ("Licensor") grants you a limited, non-exclusive, non-transferable license to use this software subject to the following terms.
+
+### 2. Permitted Use
+
+#### Free Use (No License Fee Required)
+- **Personal Non-Commercial**: Individuals using the software for personal, non-commercial purposes only
+- **Educational/Academic**: Schools, universities, and other educational institutions for educational or learning purposes
+
+#### Paid Use (Commercial License Required)
+All use cases not covered under "Free Use" above require a commercial license, including but not limited to:
+- **Personal Commercial**: Individuals using the software for commercial or business purposes
+- **Organizations**: Non-profit organizations, associations, and groups
+- **Corporations**: Companies, businesses, and commercial entities
+- **Government**: Government agencies and public institutions
+
+For commercial licensing inquiries, please visit: https://aster-inc.com/contact/
+
+### 3. Restrictions
+
+You may NOT:
+- **Modify**: Alter, adapt, translate, or create derivative works based on the software
+- **Reverse Engineer**: Decompile, disassemble, or attempt to derive the source code
+- **Redistribute**: Distribute, sublicense, lease, rent, or lend the software to third parties
+- **Repurpose**: Use any part of the software code in other projects or products
+- **Remove Notices**: Remove or alter any proprietary notices, labels, or marks
+
+### 4. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+### 5. Limitation of Liability
+
+THE LICENSOR SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF DATA, LOSS OF PROFITS, OR BUSINESS INTERRUPTION.
+
+### 6. Termination
+
+This license is effective until terminated. Your rights under this license will terminate automatically without notice if you fail to comply with any of its terms. Upon termination, you must destroy all copies of the software.
+
+### 7. Governing Law
+
+This license shall be governed by and construed in accordance with the laws of Japan. Any disputes arising from this license shall be subject to the exclusive jurisdiction of the Tokyo District Court.
+
+---
+
+## 日本語版
+
+### 1. ライセンスの付与
+
+本ソフトウェア（「Crypper」）は販売ではなく、ライセンス供与されます。Aster Inc.（以下「当社」）は、以下の条件に従い、本ソフトウェアを使用するための限定的、非独占的、譲渡不可のライセンスを付与します。
+
+### 2. 許可される使用
+
+#### 無償使用（ライセンス料不要）
+- **個人非商用**: 個人的かつ非商用目的のみで使用する個人
+- **教育・学術**: 教育・学習目的で使用する学校、大学、その他の教育機関
+
+#### 有償使用（商用ライセンス必要）
+上記「無償使用」に該当しないすべての使用には商用ライセンスが必要です。以下はその例です：
+- **個人商用**: 商用または事業目的で使用する個人
+- **団体**: 非営利団体、協会、グループ
+- **法人**: 会社、企業、商業団体
+- **政府機関**: 官公庁、公的機関
+
+商用ライセンスに関するお問い合わせ: https://aster-inc.com/contact/
+
+### 3. 禁止事項
+
+以下の行為は禁止されています：
+- **改変**: ソフトウェアの改変、翻案、翻訳、または派生物の作成
+- **リバースエンジニアリング**: 逆コンパイル、逆アセンブル、またはソースコードの解析
+- **再配布**: 第三者へのソフトウェアの配布、サブライセンス、貸与、レンタル
+- **流用**: ソフトウェアのコードの一部を他のプロジェクトや製品に使用すること
+- **表示の削除**: 著作権表示、ラベル、マークの削除または改変
+
+### 4. 保証の免責
+
+本ソフトウェアは「現状のまま」で提供され、商品性、特定目的への適合性、非侵害性を含む、明示または黙示のいかなる保証もありません。当社は、本ソフトウェアの使用から生じるいかなる請求、損害、その他の責任についても責任を負いません。
+
+### 5. 責任の制限
+
+当社は、データの損失、利益の損失、事業の中断を含む、間接的、付随的、特別、結果的、または懲罰的損害について、一切の責任を負いません。
+
+### 6. ライセンスの終了
+
+本ライセンスは終了するまで有効です。本ライセンスの条項に違反した場合、お客様の権利は通知なく自動的に終了します。終了時には、本ソフトウェアのすべてのコピーを破棄する必要があります。
+
+### 7. 準拠法
+
+本ライセンスは日本法に準拠し、解釈されます。本ライセンスに起因する紛争は、東京地方裁判所を第一審の専属的合意管轄裁判所とします。
+
+---
+
+## Third-Party Software Notice / サードパーティソフトウェアに関する通知
+
+This software includes third-party libraries that are licensed under the MIT, Apache-2.0, and BSD-3-Clause licenses. Please refer to the "licenses" folder for the original license texts and details on each included library.
+
+本ソフトウェアには、MIT、Apache-2.0、BSD-3-Clauseライセンスの下でライセンスされたサードパーティライブラリが含まれています。各ライブラリの元のライセンステキストと詳細については、「licenses」フォルダを参照してください。
